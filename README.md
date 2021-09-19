@@ -2,6 +2,6 @@
 
 Cloning Kakao in web browser.
 
-2021-09-06 to 17
+2021-09-06 to 21
 
 HTML & CSS practice codes.
