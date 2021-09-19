@@ -1,7 +1,13 @@
+.settings__list {
+  padding-bottom: 50px;
+  overflow-y: scroll;
+}
+
 .settings__setting {
   padding: 20px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   font-size: 18px;
+  font-weight: 500;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -11,8 +17,34 @@
   opacity: 0.8;
   margin-right: 20px;
   font-size: 22px;
+  width: 24px;
+  text-align: center;
+}
+
+.hidden {
+  opacity: 0;
 }
 
 .settings__setting-column:last-child {
   opacity: 0.5;
+}
+
+.settings__setting-column:first-child {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.new-mark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-left: 10px;
+  background-color: tomato;
+  color: white;
+  font-weight: 800;
+  font-size: 11px;
 }
